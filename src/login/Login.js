@@ -6,6 +6,7 @@ import NavBar from "../common/NavBar";
 export default function Login() {
 let history=useHistory()
 
+  // For handling login
  const handleLogin=(e)=>{
    e.preventDefault()
    console.log("ppp",e.target.email.value);
